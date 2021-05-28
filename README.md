@@ -39,3 +39,7 @@ A more elegant way to built a web site using bootstrap than before. Maybe not th
 # Fourth directory
 This one is more like a web app where you can have results on the page. And maybe next a simple blog. But all this have to be done. 
 
+
+# NEVER
+Never use these sources for a production site as they are. You must modify the debug parameter to FALSE. 
+
