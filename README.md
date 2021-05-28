@@ -31,3 +31,11 @@ In the navigation bar you have to have variables in the links (the href). If you
 # Third directory
 
 It is the same as the second one, but with the code optimization about the nav bar. Yet to be done. 
+
+**03 - N pages website with Flask + Bootstrap + Jinja2** - app.py is the same. The main update is in the templates folder. The main file is base.html, which contains all the stuff which is allways needed / displayed for a web page. And then you hav index.html, apropos.html and contact.html in which you'll find only the content of the page. 
+
+A more elegant way to built a web site using bootstrap than before. Maybe not the best, but quite easy to install and update. 
+
+# Fourth directory
+This one is more like a web app where you can have results on the page. And maybe next a simple blog. But all this have to be done. 
+
