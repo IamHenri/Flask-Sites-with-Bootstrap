@@ -37,8 +37,14 @@ It is the same as the second one, but with the code optimization about the nav b
 A more elegant way to built a web site using bootstrap than before. Maybe not the best, but quite easy to install and update. 
 
 # Fourth directory
-This one is more like a web app where you can have results on the page. And maybe next a simple blog. But all this have to be done. 
+**04 - Flask + Bootstrap + basic Form** : in this directory, the app.py file has three pages : the index : / ; the a propos page, a static page and the result page named resultat.html. This last page doesn't appear in the menu. You only get it when you validate the form. Careful if used on a site in production there is no protection against the data the user main give in the form! 
 
+
+This form is inspired from here : https://pixees.fr/informatiquelycee/n_site/nsi_prem_flask.html 
+
+
+# Fifth directory
+To do, but certainly a more complicated form. 
 
 # NEVER
 Never use these sources for a production site as they are. You must modify the debug parameter to FALSE. 
