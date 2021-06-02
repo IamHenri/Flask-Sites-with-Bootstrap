@@ -44,7 +44,10 @@ This form is inspired from here : https://pixees.fr/informatiquelycee/n_site/nsi
 
 
 # Fifth directory
-To do, but certainly a more complicated form. 
+**05 - form to calculate stuff in flask and Bootstrap** : this directory lets you manage a web site with a form on the homepage, and a dedicated page for the results. all the calculation is made in app.py. The text shown in the result page could be optimized using Jinja2 with conditions etc. The point of these scripts are to providfe a form which makes calculus and giv a conditional result. 
+
+
+This form helps you calculate the time spent on an activity you would have done during years, every day. The result is the whole time spent. 
 
 # NEVER
 Never use these sources for a production site as they are. You must modify the debug parameter to FALSE. 
