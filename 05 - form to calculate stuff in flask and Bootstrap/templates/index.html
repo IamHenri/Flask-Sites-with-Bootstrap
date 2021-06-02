@@ -1,0 +1,52 @@
+{% extends 'base.html' %}
+{% block content %}
+
+<!-- First Container -->
+<!-- <div class="container-fluid bg-1 text-center">
+  <h3 class="margin">Who Am I?</h3>
+  <img src="https://www.w3schools.com/bootstrap/bird.jpg" class="img-responsive img-circle margin" style="display:inline" alt="Bird" width="350" height="350">
+  <h3>I'm an adventurer</h3>
+</div> -->
+
+<!-- Second Container -->
+<!-- <div class="container-fluid bg-2 text-center">
+  <h3 class="margin">Some content</h3>
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+  </a>
+</div> -->
+
+<!-- Third Container (Grid) -->
+<div class="container-fluid bg-3 text-center">    
+  <h3 class="margin">Un formulaire basique avec des calculs simples</h3><br>
+  <div class="row">
+    <div class="col-sm-1">
+      <p></p>
+    </div>
+    <div class="col-sm-10"> 
+	<div class="container-fluid bg-3 text-center">
+	  <p>
+			A l'aide de ce formulaire, déterminez le temps passé à mener une action tous les jours pendant plusieurs années. Par exemple 5 minutes par jours, tous les jours, pendant trente ans ça donne plus d'un mois à ne faire que ça (1 mois et 8 jours plus précisément : vérifiez le!)...		
+	  </p>
+	</div>
+      <p>
+	  
+		<form action="/resultat" method="post"> Pendant 
+			<input type="number" name="nbr_annee" size="2" maxlength="2" autofocus requiered title="Ecrivez un nombre entier" value="1"/> année(s), à raison de 
+			<input type="number" name="nbr_fois_par_jour_input" size="3" maxlength="3" value="1" requiered/> fois par jour, pour une durée de  : <br /> 
+			<input type="number" name="heures" size="2" maxlength="2" value="0" title="Ecrivez un nombre entier"> heures,   <br /> 
+			<input type="number" name="minutes" size="2" maxlength="2" value="0" title="Ecrivez un nombre entier"/> minutes,  <br /> 
+			<input type="number" name="secondes" size="2" maxlength="2"  value="1" title="Ecrivez un nombre entier"/> secondes,  <br /> 
+			j'ai passé ce temps à
+			<input type="text" name="verbe" size="48" maxlength="48"  value="Exemple : consulter Instagram, me laver les dents, me caresser..."  title="Ecrivez un verbe à l'infinitif, comme par exemple me laver les mains, ou consulter facebook..."/></p>
+			<input type="submit" value="Envoyer" />
+		</form>
+	  
+	  </p>
+    </div>
+    <div class="col-sm-1">
+      <p></p>
+    </div>
+  </div>
+</div>
+
+{% endblock %}
