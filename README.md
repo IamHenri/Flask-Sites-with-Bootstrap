@@ -49,6 +49,8 @@ This form is inspired from here : https://pixees.fr/informatiquelycee/n_site/nsi
 
 This form helps you calculate the time spent on an activity you would have done during years, every day. The result is the whole time spent. 
 
+You can find here a version of the scripts in this directory here : http://designerfonctionnel.pythonanywhere.com/
+
 # NEVER
 Never use these sources for a production site as they are. You must modify the debug parameter to FALSE. 
 
