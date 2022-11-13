@@ -1,12 +1,14 @@
 # Flask-Sites-with-Bootstrap
 
-I really like flask. But I think its use may be improved with Bootstrap. Which I try to demonstrate here. There are obviously a lot of other way to do things I do here, and certainly more elegant. Anyway, the point is to provide a way of making websites with Flask and bootstrap. 
+Flask is handy! But I think its use may be improved with Bootstrap. Which I try to demonstrate here. There are obviously a lot of other way to do things I do here, and certainly more elegant. Anyway, the point is to provide a way of making websites with Flask and bootstrap. 
 
-Here you'll find some sets of scripts to build sites with Flask and Bootstrap. For every directory you'll download / clone / copy or whatever, you have to run these two commands to run your site : 
+I use w3schools.com templates. You can use your own. 
 
-export FLASK_APP=app.py
+Here you'll find some sets of scripts to build sites with Flask and Bootstrap. For every directory you'll download / clone / copy or whatever. Once in the directory you downliaded, you have to run these two commands to run your site : 
 
-flask run
+>export FLASK_APP=app.py
+
+>flask run
 
 visit https://127.0.0.1:5000 and be amazed. 
 
